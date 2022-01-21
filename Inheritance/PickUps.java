@@ -1,5 +1,5 @@
 class PickUps extends Vehicle {
-    double minimumCarryingCapacityInKg =250;
+    private double minimumCarryingCapacityInKg =250;
     PickUps(){
 
     }

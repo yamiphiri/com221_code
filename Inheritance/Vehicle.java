@@ -1,7 +1,10 @@
 class Vehicle{
     // attributes of car
-    private int numberOfTyres =4;
+    private int numberOfTyres;
     private String color;
+    Vehicle(){
+        this.numberOfTyres =4;
+    }    
     // set color of the car
     public void setColor(String color) {
         this.color = color;
@@ -14,6 +17,7 @@ class Vehicle{
         this.numberOfTyres = numberOfTryes;
     }
     public int getNumberOfTryes(){
+        System.out.println("get numberOfTryes");
         return this.numberOfTyres;
     }
 }
