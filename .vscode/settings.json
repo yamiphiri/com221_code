@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": [
+        "javaFx",
+        "interfaces",
+        "Abstactclasses",
+        "Event_driven"
+    ]
+}
